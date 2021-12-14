@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    build: ./app/
+    
+  db:
+    build: ./database/
+    # internal and external
+    ports:
+      - "5432"
+    # internal
+    expose:
+      - "5432"

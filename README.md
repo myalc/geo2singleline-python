@@ -1,5 +1,7 @@
 # geo2singleline-python
 
+Convert connectivity to single line diagram.
+
 
 ```bash
 cd geo2singleline-python
